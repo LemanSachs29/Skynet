@@ -1,0 +1,333 @@
+/*Estilos globales*/
+/*------------------------------------------------------------------------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    --rojo-skynet: #b20000;
+    --rojo-skynet-transparente: #B200007F;
+    --color-negro: #000000;
+    --color-blanco: #ffffff;
+    --fuentepat0: "JetBrains Mono", monospace;
+    --font-size-p: 16px;
+    --font-size-btn: 18px;
+    --font-size-h1: 36px;
+}
+body{
+    display: grid;
+    min-height: 100dvh; /* todo el viewport dinámico*/
+    grid-template-rows: auto 1fr auto;
+}
+
+/*Estilos del Header*/
+/*------------------------------------------------------------------------------------------------*/
+header{
+    margin: auto;
+    background-color: var(--color-negro);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo{
+ padding-left: 5%;
+ align-items: center;
+}
+
+header nav{
+    padding-right: 5%;
+    display: flex;
+    gap: 5px;
+}
+
+nav .button {
+    align-items: center;        /* Centra verticalmente el contenido */
+    background-color: #CBCBCB;  
+    border-radius: 5px;
+    color: #000;                /* Color del texto */
+    cursor: pointer;            /* Cambia el cursor a estilo de botón */
+    display: flex;              /* Activa Flexbox en cada botón */
+    font-family: var(--fuentepat0);
+    font-size: var(--fuente-size-btn);
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    height: 30px;
+    justify-content: center;    /* Centra horizontalmente el contenido */
+    transition: border 0.3s; /* Transición suave para el color del borde */
+    transition: color 0.3s; /* Transición para el color de la fuente */
+    width: 100px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra negra con un poco de desenfoque */
+    /*text-shadow: [desplazamiento horizontal] [desplazamiento vertical] [desenfoque] [color];
+*/
+
+}
+
+.button:hover{
+    border: 2px solid  var(--rojo-skynet);
+    color: var(--rojo-skynet)
+}
+/*Estilos del body*/
+body{
+    background-image: url(../img/fondo.jpg); /* Ruta de la imagen*/
+    background-size: cover; /* Hace que cubra todo el fondo */
+    background-position: right; /* centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita*/
+    height: 100vh; /* El body ocupa toda la altura de la ventana */
+}
+
+.seBusca{
+    background-color: var(--rojo-skynet-transparente);
+    border: 2px solid var(--rojo-skynet);
+    border-radius: 8px;
+    margin: 10% 6%;
+    padding: 3% 5%;
+}
+
+.seBusca p{
+    font-size: var(--font-size-p);
+    font-family: var(--fuentepat0);
+    color: var(--color-blanco);
+    text-shadow: 
+        0 0 5px #B20000,   /* Sombra difusa roja */
+        0 0 10px #B20000,  /* Sombra difusa roja más intensa */
+        0 0 15px #B20000,  /* Sombra más intensa */
+        0 0 20px #B20000;  /* Sombra más grande */
+}
+
+.seBusca img{
+    width: 120px;
+    margin: 5%;
+}
+
+.contenidoPrincipal{
+    font-family: var(--fuentepat0);
+    color: var(--color-blanco);
+}
+
+.main_index{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 2%;
+    
+}
+
+.contenidoPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}   
+
+.contenidoPrincipal h1{
+    font-size: var(--font-size-h1);
+    text-align: center;
+}
+
+.contenidoPrincipal > h1{ 
+    margin: 5% 5%;
+}
+
+.contenidoPrincipal p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+/*Estilos fel footer*/
+/*------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: var(--color-negro);
+    padding: 20px 0; 
+    margin-top: auto; 
+}
+
+footer nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+}
+
+footer nav a {
+    font-family: var(--fuentepat0);
+    color: var(--color-blanco);
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer nav a:hover{
+    color: var(--rojo-skynet);
+}
+
+
+/*Estilos del formulario de contacto*/
+/*------------------------------------------------------------------------------------------------*/
+
+form {
+    color: var(--color-blanco);
+    border: 1px solid var(--rojo-skynet);
+
+    margin: 5vw auto; 
+    padding: 2rem; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    max-width: 70vw; 
+    width: 100%;
+    font-size: 16px;
+    font-family: var(--fuentepat0);
+}
+
+form h4{
+    font-size: 18px;
+}
+
+fieldset {
+    border-radius: 5%;
+    border-color: var(--rojo-skynet);
+    background-color: var(--rojo-skynet-transparente);
+    padding: 1rem; 
+    display: flex;
+    flex-direction: column
+}
+
+
+.fieldset-1 {
+    grid-column: 1 / 2;
+;
+}
+
+.fieldset-2 {
+    grid-column: 2 / 3;
+}
+
+.fieldset-3 {
+    grid-column: 3 / 4;
+}
+
+.fieldset-4 {
+    grid-column: 1 / -1;
+}
+
+.button_form{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+}
+
+.button-contacto{
+    font-family: var(--fuentepat0);
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--rojo-skynet);
+    padding: 3%;
+    color: var(--color-blanco);
+
+    border: 2px solid var(--rojo-skynet);
+    box-shadow: 
+        0 0 10px var(--rojo-skynet),    /* Capa cercana de brillo */
+        0 0 20px var(--rojo-skynet),    /* Capa intermedia de brillo */
+        0 0 30px var(--rojo-skynet),    /* Capa exterior de brillo */
+        0 0 40px var(--rojo-skynet);    /* Capa extra para más intensidad */
+    border-radius: 5px; 
+
+}
+
+/*Estilos de la sección about us*/
+/*-------------------------------------------------------------------------------------------------*/
+
+.aboutUs_html {
+    color: var(--color-blanco);
+    font-family: var(--fuentepat0);
+    text-align: center;
+    max-width: 1200px; /* Limita el ancho máximo de la sección */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* Para los párrafos y encabezados */
+.aboutUs_html p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.aboutUs_html h3 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Para la cuadrícula */
+.sobre_nosotros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 80%; 
+    margin: 0 auto; 
+}
+
+.introduccion_item1 {
+    grid-column: 1 / -1; 
+    text-align: center;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.tecnologia_item {
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 8px;
+    p{
+        text-align: justify;
+    }
+}
+
+
+/* Para las imágenes */
+.tecnologia_item img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+/*Política de privaciad*/
+/*-----------------------------------------------------------------------------------------------*/
+
+.privacidad_html{
+    color: var(--color-blanco);
+    font-family: var(--fuentepat0);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.documento{
+    background-color: blue;
+
+}
+
+.privacidad_html > h1, 
+.privacidad_html > p{
+    text-align: center;
+}
+
+.privacidad_seccion{
+    background-color: green;
+    margin-bottom: 3%;
+}
+.privacidad_seccion h3, .privacidad_seccion h2{
+    margin-bottom: 1%;
+}
+
