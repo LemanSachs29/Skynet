@@ -7,6 +7,8 @@
     box-sizing: border-box;
     --rojo-skynet: #b20000;
     --rojo-skynet-transparente: #B200007F;
+    --gris-metálico: #B0B0B0;
+    --gris-metálico-transparente: #B0B0B07f;
     --color-negro: #000000;
     --color-blanco: #ffffff;
     --fuentepat0: "JetBrains Mono", monospace;
@@ -76,6 +78,7 @@ body{
     background-size: cover; /* Hace que cubra todo el fondo */
     background-position: right; /* centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita*/
+    background-attachment: fixed; /* Mantiene la imagen fija en su posición */
     height: 100vh; /* El body ocupa toda la altura de la ventana */
 }
 
@@ -310,12 +313,12 @@ fieldset {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-
 }
 
 .documento{
-    background-color: blue;
-
+    border-radius: 5px;
+    border: 2px solid var(--gris-metálico);
+    background-color:var(--gris-metálico-transparente);
 }
 
 .privacidad_html > h1, 
@@ -324,10 +327,48 @@ fieldset {
 }
 
 .privacidad_seccion{
-    background-color: green;
     margin-bottom: 3%;
 }
-.privacidad_seccion h3, .privacidad_seccion h2{
+
+.privacidad_seccion h1, .privacidad_seccion h2, .privacidad_seccion h3{
     margin-bottom: 1%;
+    text-align: center;
 }
 
+.privacidad_seccion ul{
+    margin: auto 5%;
+    list-style-type:upper-roman;
+    font-size: 1px;   
+}
+
+/*Estilos de la galería*/
+/*-----------------------------------------------------------------------------------------------*/
+/* Configuración para centrar verticalmente dentro de la estructura grid existente en el body */
+main.galeria_html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Estilos de la galería */
+.galeria {
+    display: flex;
+    width: 60%;
+    height: 90%;
+}
+
+.galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+.galeria img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
