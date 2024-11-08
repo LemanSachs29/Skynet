@@ -244,7 +244,8 @@ fieldset {
     color: var(--color-blanco);
     font-family: var(--fuentepat0);
     text-align: center;
-    max-width: 1200px; /* Limita el ancho máximo de la sección */
+    width: 60%;
+    height: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -316,30 +317,17 @@ fieldset {
 }
 
 .documento{
-    border-radius: 5px;
-    border: 2px solid var(--gris-metálico);
-    background-color:var(--gris-metálico-transparente);
+    max-height: 120%;
+    margin-top: 3%;
 }
 
-.privacidad_html > h1, 
-.privacidad_html > p{
-    text-align: center;
+.documento :first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.privacidad_seccion{
-    margin-bottom: 3%;
-}
-
-.privacidad_seccion h1, .privacidad_seccion h2, .privacidad_seccion h3{
-    margin-bottom: 1%;
-    text-align: center;
-}
-
-.privacidad_seccion ul{
-    margin: auto 5%;
-    list-style-type:upper-roman;
-    font-size: 1px;   
-}
 
 /*Estilos de la galería*/
 /*-----------------------------------------------------------------------------------------------*/
