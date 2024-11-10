@@ -46,33 +46,33 @@ header nav{
 }
 
 nav .button {
-    align-items: center;        /* Centra verticalmente el contenido */
+    align-items: center;        
     background-color: #CBCBCB;  
     border-radius: 5px;
-    color: #000;                /* Color del texto */
-    cursor: pointer;            /* Cambia el cursor a estilo de botón */
-    display: flex;              /* Activa Flexbox en cada botón */
+    color: #000;                
+    cursor: pointer;            
+    display: flex;              
     font-family: var(--fuentepat0);
     font-size: var(--fuente-size-btn);
     font-optical-sizing: auto;
     font-weight: 800;
     font-style: normal;
     height: 30px;
-    justify-content: center;    /* Centra horizontalmente el contenido */
-    transition: border 0.3s; /* Transición suave para el color del borde */
-    transition: color 0.3s; /* Transición para el color de la fuente */
+    justify-content: center;    
+    transition: border 0.3s; 
+    transition: color 0.3s; 
     width: 100px;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra negra con un poco de desenfoque */
-    /*text-shadow: [desplazamiento horizontal] [desplazamiento vertical] [desenfoque] [color];
-*/
-
+    /*text-shadow: [desplazamiento horizontal] [desplazamiento vertical] [desenfoque] [color]; */
 }
 
 .button:hover{
     border: 2px solid  var(--rojo-skynet);
     color: var(--rojo-skynet)
 }
+
 /*Estilos del body*/
+/*------------------------------------------------------------------------------------------------*/
 body{
     background-image: url(../img/fondo.jpg); /* Ruta de la imagen*/
     background-size: cover; /* Hace que cubra todo el fondo */
@@ -137,7 +137,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
 }
-/*Estilos fel footer*/
+/*Estilos Del footer*/
 /*------------------------------------------------------------------------------------------------*/
 footer {
     background-color: var(--color-negro);
@@ -237,8 +237,8 @@ fieldset {
 }
 
 .button-contacto:hover {
-    background-color: var(--color-blanco); /* Fondo blanco al pasar el ratón */
-    color: var(--rojo-skynet); /* Cambiar texto a rojo Skynet */
+    background-color: var(--color-blanco);
+    color: var(--rojo-skynet); 
     box-shadow: 
         0 0 20px var(--rojo-skynet), 
         0 0 30px var(--rojo-skynet),
@@ -247,9 +247,8 @@ fieldset {
     transform: scale(1.05);  /* Aumento ligeramente el tamaño del botón */
 }
 
-
 /*Estilos de la sección about us*/
-/*-------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------*/
 
 .aboutUs_html {
     color: var(--color-blanco);
@@ -262,7 +261,6 @@ fieldset {
     justify-content: center;
 }
 
-/* Para los párrafos y encabezados */
 .aboutUs_html p {
     font-size: 16px;
     margin-bottom: 20px;
@@ -275,7 +273,6 @@ fieldset {
     margin-bottom: 10px;
 }
 
-/* Para la cuadrícula */
 .sobre_nosotros {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -304,8 +301,6 @@ fieldset {
     }
 }
 
-
-/* Para las imágenes */
 .tecnologia_item img {
     max-width: 70%;
     height: auto;
@@ -370,7 +365,6 @@ fieldset {
 
 /*Estilos de la galería*/
 /*-----------------------------------------------------------------------------------------------*/
-/* Configuración para centrar verticalmente dentro de la estructura grid existente en el body */
 main.galeria_html {
     display: flex;
     justify-content: center;
@@ -443,7 +437,6 @@ main.galeria_html {
 /*Productos*/
 /*------------------------------------------------------------------------------------------------*/
 
-/* Estilos para la sección de productos */
 .productos_html{
     align-items: center;
     display: grid;
@@ -453,7 +446,6 @@ main.galeria_html {
     padding: 20px;
 }
 
-/* Estilo para cada tarjeta de producto */
 .producto {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     overflow: hidden; 
@@ -464,7 +456,6 @@ main.galeria_html {
     transition: transform 0.3s ease-in-out;
 }
 
-/* Estilo para la imagen */
 .producto img {
     width: 100%; 
     height: auto; 
@@ -473,7 +464,6 @@ main.galeria_html {
     border-top-right-radius: 15px;
 }
 
-/* Estilo para el contenedor de la descripción */
 .descripcion {
     font-family: var(--fuentepat0);
     padding: 15px;
@@ -485,21 +475,18 @@ main.galeria_html {
 
 }
 
-/* Estilo para el título */
 .descripcion h3 {
     margin: 10px 0;
     font-size: 18px;
     font-weight: bold;
 }
 
-/* Estilo para el párrafo de descripción */
 .descripcion p {
     font-size: 14px;
     margin-bottom: 15px;
     font-weight: 600; 
 }
 
-/* Estilo para el botón */
 .btn {
     padding: 10px 20px;
     background-color: var(--rojo-skynet); 
