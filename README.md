@@ -6,10 +6,10 @@
 
 # *Interfaz de Skynet*
 
-Este proyecto pertenece a una actividad realizada en clase, donde se pedía hacer una simulación de la interfaz de una empresa utilizando HTML y CSS. Le di mi toque personal haciendo referencia al universo de Terminator.
+Este proyecto pertenece a una actividad realizada en clase, donde se pedía hacer una simulación de la interfaz de una empresa utilizando HTML y CSS. Le di mi toque personal haciendo referencia al universo de Terminator. Este
 
 **Encontrarás capturas al final de este README**
-
+**Disclaimer:** Este contenido no es responsivo y puede no mostrarse correctamente en dispositivos móviles o pantallas pequeñas.
 
 ## Tecnologías Usadas
 
