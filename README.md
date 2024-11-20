@@ -16,15 +16,11 @@ Este proyecto pertenece a una actividad realizada en clase, donde se pedía hace
 - HTML
 - CSS
 
-## Instalación
+## Instalación y Uso
 
 1. Descarga o clona el repositorio.
 2. Para ver el proyecto, abre el archivo `index.html` en tu navegador.
-
-## Uso
-
-1. Abre el archivo `index.html` en tu navegador para ver el proyecto en funcionamiento.
-2. Navega utilizando los botones y enlaces.
+3. Navega utilizando los botones y enlaces.
 
 ## Licencia
 
@@ -35,3 +31,35 @@ Este proyecto es de uso personal y educativo.
 ###Inicio
 
 [![Pantalla de inicio](https://github.com/LemanSachs29/Skynet/blob/main/capturas/Inicio.png "Pantalla de inicio")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/Inicio.png "Pantalla de inicio")
+
+### Inicio
+
+[![Pantalla de inicio](https://github.com/LemanSachs29/Skynet/blob/main/capturas/Inicio.png "Pantalla de inicio")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/Inicio.png "Pantalla de inicio")
+
+### Contacto
+
+[![Pantalla de contacto](https://github.com/LemanSachs29/Skynet/blob/main/capturas/contacto.png "Pantalla de contacto")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/contacto.png "Pantalla de contacto")
+
+### Galería
+
+[![Pantalla de galería](https://github.com/LemanSachs29/Skynet/blob/main/capturas/galeria.png "Pantalla de galería")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/galeria.png "Pantalla de galería")
+
+### Opiniones
+
+[![Pantalla de opiniones](https://github.com/LemanSachs29/Skynet/blob/main/capturas/opiniones.png "Pantalla de opiniones")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/opiniones.png "Pantalla de opiniones")
+
+### Preguntas frecuentes
+
+[![Pantalla de preguntas frecuentes](https://github.com/LemanSachs29/Skynet/blob/main/capturas/preguntas%20frecuentes.png "Pantalla de preguntas frecuentes")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/preguntas%20frecuentes.png "Pantalla de preguntas frecuentes")
+
+### Privacidad
+
+[![Pantalla de privacidad](https://github.com/LemanSachs29/Skynet/blob/main/capturas/privaciad.png "Pantalla de privacidad")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/privaciad.png "Pantalla de privacidad")
+
+### Productos
+
+[![Pantalla de productos](https://github.com/LemanSachs29/Skynet/blob/main/capturas/productos.png "Pantalla de productos")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/productos.png "Pantalla de productos")
+
+### Sobre nosotros
+
+[![Pantalla de sobre nosotros](https://github.com/LemanSachs29/Skynet/blob/main/capturas/sobre%20nosotros.png "Pantalla de sobre nosotros")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/sobre%20nosotros.png "Pantalla de sobre nosotros")
