@@ -26,11 +26,7 @@ Este proyecto pertenece a una actividad realizada en clase, donde se pedía hace
 
 Este proyecto es de uso personal y educativo.
 
-##Capturas
-
-###Inicio
-
-[![Pantalla de inicio](https://github.com/LemanSachs29/Skynet/blob/main/capturas/Inicio.png "Pantalla de inicio")](https://github.com/LemanSachs29/Skynet/blob/main/capturas/Inicio.png "Pantalla de inicio")
+## Capturas
 
 ### Inicio
 
