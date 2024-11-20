@@ -1,2 +1,1 @@
-## Inicio
-![Página de inicio](img/inicio.png "Pagina de inicio")
+[![](https://github.com/LemanSachs29/Skynet/blob/main/capturas/contacto.png)](http://https://github.com/LemanSachs29/Skynet/blob/main/capturas/contacto.png)
