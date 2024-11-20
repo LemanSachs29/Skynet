@@ -1,2 +1,2 @@
 ## Inicio
-![Página de inicio](capturas/inicio "Pagina de inicio")
+![Página de inicio](img/inicio.png "Pagina de inicio")
